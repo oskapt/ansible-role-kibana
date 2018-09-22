@@ -1,5 +1,9 @@
 ---
-kibana_version: "4.6"
+kibana_version: "6.4"
+
+# with 6.4 the OSS version has a different name
+# kibana_package_name: kibana-oss
+kibana_package_name: kibana
 
 kibana_server_port: 5601
 kibana_server_host: "0.0.0.0"
